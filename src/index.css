@@ -58,6 +58,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+@keyframes float-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
